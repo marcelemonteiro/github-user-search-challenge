@@ -1,0 +1,79 @@
+.User {
+  display: flex;
+  gap: 3rem;
+  margin: 1rem 0;
+  padding: 3rem;
+  border-radius: 0.6rem;
+  box-shadow: 1px 5px 10px rgb(0 0 0 / 10%);
+  background-color: var(--secondary-bg-color);
+}
+
+.userAvatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.userInfo {
+  flex: 1;
+  display: grid;
+  grid-template-areas:
+    "username created-day"
+    "bio bio"
+    "numbers numbers"
+    "links links";
+  gap: 2rem;
+}
+
+.userName {
+  grid-area: username;
+}
+
+.userName span {
+  color: var(--primary);
+}
+
+.userCreatedDay {
+  grid-area: created-day;
+  text-align: right;
+}
+
+.userBio {
+  grid-area: bio;
+  color: var(--darker-text);
+}
+
+.userNumbers {
+  grid-area: numbers;
+  background-color: var(--bg-color);
+  border-radius: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.userNumbers > div > span {
+  color: var(--darker-text);
+  font-size: 0.8rem;
+}
+
+.userNumbers > div > p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.userLinks {
+  grid-area: links;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+  column-gap: 6rem;
+  color: var(--darker-text);
+}
+
+.userLinks div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

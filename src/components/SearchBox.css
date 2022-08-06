@@ -1,0 +1,33 @@
+.SearchBox {
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 0.8rem 0.6rem 1.3rem;
+  border-radius: 0.6rem;
+  box-shadow: 1px 5px 10px rgb(0 0 0 / 10%);
+}
+
+.searchInput {
+  flex: 1;
+  padding: 0.5rem;
+  margin: 0 0.4rem;
+  border: none;
+  outline: none;
+  color: var(--text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.searchBtn {
+  background-color: var(--primary);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.searchBtn:hover {
+  background-color: var(--primary-hover);
+}

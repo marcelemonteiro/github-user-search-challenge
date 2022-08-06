@@ -1,0 +1,27 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary: #0079ff;
+    --primary-hover: #60abff;
+    --darker-text: #2b3442;
+    --lighter-text: #4b6a9b;
+    --text-color: #222731;
+    --input-placeholder: #4b6a9b;
+    --bg-color: #f6f8ff;
+    --secondary-bg-color: #fefefe;
+    --btn-hover: #222731;
+    --error: #f74646;
+  }
+}
+
+.light {
+  --primary: #0079ff;
+  --primary-hover: #60abff;
+  --darker-text: #2b3442;
+  --lighter-text: #4b6a9b;
+  --text-color: #222731;
+  --input-placeholder: #4b6a9b;
+  --bg-color: #f6f8ff;
+  --secondary-bg-color: #fefefe;
+  --btn-hover: #222731;
+  --error: #f74646;
+}

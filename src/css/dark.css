@@ -1,0 +1,27 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #0079ff;
+    --primary-hover: #60abff;
+    --darker-text: #fff;
+    --lighter-text: #fff;
+    --input-text: #fff;
+    --input-placeholder: #fff;
+    --bg-color: #141d2f;
+    --secondary-bg-color: #1e2a47;
+    --btn-hover: #90a4d4;
+    --error: #f74646;
+  }
+}
+
+.dark {
+  --primary: #0079ff;
+  --primary-hover: #60abff;
+  --darker-text: #fff;
+  --lighter-text: #fff;
+  --text-color: #fff;
+  --input-placeholder: #fff;
+  --bg-color: #141d2f;
+  --secondary-bg-color: #1e2a47;
+  --btn-hover: #90a4d4;
+  --error: #f74646;
+}
