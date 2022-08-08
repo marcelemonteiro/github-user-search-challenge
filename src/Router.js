@@ -5,7 +5,10 @@ function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="" element={<GithubUserSearch />}>
+        <Route
+          path="github-user-search-challenge"
+          element={<GithubUserSearch />}
+        >
           <Route path=":username" element={<GithubUserSearch />} />
         </Route>
       </Routes>
