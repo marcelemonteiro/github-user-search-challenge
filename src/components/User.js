@@ -45,23 +45,23 @@ function User({ user }) {
         </div>
       </div>
       <div className="userLinks">
-        <div className="userLocation">
+        <div className={`userLocation ${user.location || "not-available"}`}>
           <img src={locationIcon} alt="Location Icon" />
-          <span>{user.location}</span>
+          <span>{user.location || "Not Available"}</span>
         </div>
-        <div className="userTwitter">
+        <div
+          className={`userTwitter ${user.twitter_username || "not-available"}`}
+        >
           <img src={twitterIcon} alt="Twitter Icon" />
-          <span>
-            {user.twitter_username ? user.twitter_username : "Not Available"}
-          </span>
+          <span>{user.twitter_username || "Not Available"}</span>
         </div>
-        <div className="userWebsite">
+        <div className={`userWebsite ${user.blog || "not-available"}`}>
           <img src={websiteIcon} alt="Website Icon" />
-          <span>{user.blog}</span>
+          <span>{user.blog || "Not Available"}</span>
         </div>
-        <div className="userCompany">
+        <div className={`userCompany ${user.company || "not-available"}`}>
           <img src={companyIcon} alt="Company Icon" />
-          <span>{user.company}</span>
+          <span>{user.company || "Not Available"}</span>
         </div>
       </div>
     </div>
