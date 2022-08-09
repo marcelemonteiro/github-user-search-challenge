@@ -11,7 +11,13 @@ function GithubUserSearch() {
 
   useEffect(() => {
     fetch(`https://api.github.com/users/${username || "octocat"}`)
-      .then((response) => response.json())
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          return null;
+        }
+      })
       .then((json) => setUser(json));
   }, [username]);
 

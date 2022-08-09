@@ -15,6 +15,14 @@ function User({ user }) {
     return `${day} ${month} ${year}`;
   };
 
+  if (!user) {
+    return (
+      <div className="User full">
+        <p>Usuário não encontrado :(</p>
+      </div>
+    );
+  }
+
   return (
     <div className="User">
       <div className="userAvatar">

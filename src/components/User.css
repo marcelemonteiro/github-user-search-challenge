@@ -13,6 +13,13 @@
   background-color: var(--secondary-bg-color);
 }
 
+.User.full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
 .userAvatar img {
   width: 120px;
   height: 120px;
