@@ -31,3 +31,22 @@
 .searchBtn:hover {
   background-color: var(--primary-hover);
 }
+
+/* Mobile */
+@media (max-width: 630px) {
+  .SearchBox {
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+  }
+
+  .searchLabel {
+    justify-self: flex-end;
+  }
+
+  .searchIcon {
+    width: 90%;
+  }
+
+  .searchInput::placeholder {
+    font-size: 0.8em;
+  }
+}

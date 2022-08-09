@@ -14,7 +14,7 @@ function SearchBox() {
 
   return (
     <form onSubmit={handleSubmit} className="SearchBox">
-      <label htmlFor="search">
+      <label htmlFor="search" className="searchLabel">
         <img src={searchIcon} alt="Search Icon" className="searchIcon" />
       </label>
       <input
@@ -23,6 +23,7 @@ function SearchBox() {
         type="text"
         onChange={({ target }) => setSearch(target.value)}
         className="searchInput"
+        placeholder="Search GitHub username..."
       />
       <button type="submit" className="searchBtn">
         Search
