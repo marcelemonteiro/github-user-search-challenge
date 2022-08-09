@@ -10,17 +10,16 @@ Pelo GitHub Pages: https://marcelemonteiro.github.io/github-user-search-challeng
 
 ## Linguagens e ferramentas:
 
-- **JavaScript**: React e React Router 
+- **JavaScript**: React com React Router 
 - **HTML**
 - **CSS** 
 
 ## O que eu aprendi/pratiquei com esse projeto
 
-- **CSS**: grid, flexbox e prefers-color-scheme media feature;
-- **React router**: rotas dinâmicas e rotas aninhadas;
-- **React**: componentes controlados;
-
-
+- Pratiquei CSS Grid e Flexbox 
+- Aprendi mais sobre a propriedade prefers-color-scheme nas media queries do CSS
+- Entendi a aplicação de rotas dinâmicas e de rotas aninhadas em uma aplicação utilizando react router
+- Aprendi mais sobre componentes controlados e a utilização de formulários em React
 
 ## Screenshots
 
