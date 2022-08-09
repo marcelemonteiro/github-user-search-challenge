@@ -16,7 +16,7 @@ Pelo GitHub Pages: https://marcelemonteiro.github.io/github-user-search-challeng
 
 ## O que eu aprendi/pratiquei com esse projeto
 
-- **CSS**: grid, flexbox and prefers-color-scheme media feature;
+- **CSS**: grid, flexbox e prefers-color-scheme media feature;
 - **React router**: rotas dinâmicas e rotas aninhadas;
 - **React**: componentes controlados;
 
